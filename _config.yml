@@ -60,8 +60,8 @@ sidebar: true
 # Generator-archive  需要 hexo-generator-archive
 archive_generator:
   per_page: 10  # 归档页文章数, 参数为 0 时不分页
-  yearly: true
-  monthly: true
+  yearly: false
+  monthly: false
   daily: false
 
 # Pagination
@@ -94,6 +94,7 @@ social:
   weibo: http://weibo.com/u/2802352712
   # zhihu: 
   rss: /atom.xml
+<<<<<<< HEAD
 
 # ===========================================
 # Third Party Services Settings
@@ -123,3 +124,5 @@ disqus_shortname: byx
 # ===========================================
 version: 2.4.x
 
+=======
+>>>>>>> f
