@@ -3,10 +3,10 @@
 # ===========================================
 
 # Site creation time
-since: 2015
+since: 2016
 
 # Custom your favicon.ico in `site/source`
-favicon: /favicon.ico
+favicon: /favicon.png
 
 # Set feed link (false | default | your feed link)
 # false: disable
@@ -19,6 +19,9 @@ rss: default
 menu:
   Home: /
   Archives: /archives/
+  Categories: /categories/
+  Tags: /tags/
+  About: /about/
   # Tags: /tags
   # Categories: /categories
   # About: /about
@@ -49,16 +52,14 @@ reward:
 # Social links Settings
 # ===========================================
 social:
-  email: your@email.com
-  stack-overflow:
-  twitter:
-  facebook:
-  linkedin:
-  google:
-  github:
-  weibo:
-  zhihu:
-  pocket:
+  email: baoyx007@gmail.com
+  # stack-overflow:
+  # twitter:
+  # facebook:
+  github: https://github.com/Baoyx007
+  weibo: http://weibo.com/u/2802352712
+  # zhihu: 
+  rss: /atom.xml
 
 # ===========================================
 # Third Party Services Settings
@@ -67,16 +68,24 @@ social:
 # Baidu Analytics
 baidu_analytics:
 # Google Analytics
-google_analytics:
+google_analytics: UA-82395311-1
+
+comments:
+  post: true
+  about: true
+
+sidebar: true
 
 # Duoshuo
 # duoshuo_shortname:
 # Disqus
-disqus_shortname:
+disqus_shortname: byx
 # netease
 # netease_key:
+
 
 # ===========================================
 # Version
 # ===========================================
 version: 2.4.x
+
