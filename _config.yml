@@ -34,28 +34,25 @@ menu:
 theme:
   color: Default
   toc: true
-  search: false
+  search: true
   fancybox: false
 
-<<<<<<< HEAD
 copyright:
   enable: true
   # https://creativecommons.org/
   license: '本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可'
 
-reward:
-  enable: true
-  qrCode:
-    wechat: /image/reward/wechat.png
-    alipay: /image/reward/alipay.png
-=======
+# reward:
+#   enable: true
+#   qrCode:
+#     wechat: /image/reward/wechat.png
+#     alipay: /image/reward/alipay.png
 # comments
 comments:
   post: true
   about: true
 
-# article directory sidebar
-sidebar: true
+
 
 # Generator-archive  需要 hexo-generator-archive
 archive_generator:
@@ -69,18 +66,7 @@ archive_generator:
 per_page: 5    # 首页文章数
 pagination_dir: page
 
-# Analytics
-## Baidu Analytics
-#baidu_analytics: Your baidu Analytics ID
-## Google Analytics
-google_analytics: UA-82395311-1
 
-# Comments
-## Duoshuo
-duoshuo_shortname: byx
-## Disqus
-#disqus_shortname: Your disqus ID
->>>>>>> ff
 
 # ===========================================
 # Social links Settings
@@ -94,7 +80,6 @@ social:
   weibo: http://weibo.com/u/2802352712
   # zhihu: 
   rss: /atom.xml
-<<<<<<< HEAD
 
 # ===========================================
 # Third Party Services Settings
@@ -124,5 +109,3 @@ disqus_shortname: byx
 # ===========================================
 version: 2.4.x
 
-=======
->>>>>>> f
